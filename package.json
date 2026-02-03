@@ -1,0 +1,43 @@
+{
+  "name": "@webpixels/mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Webpixels Bootstrap components - AI-powered UI assembly",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "webpixels-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bootstrap",
+    "components",
+    "ui",
+    "webpixels",
+    "ai",
+    "claude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpixels/mcp"
+  },
+  "author": "Webpixels",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
