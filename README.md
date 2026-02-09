@@ -1,6 +1,6 @@
 # Webpixels MCP Server
 
-MCP (Model Context Protocol) server for Webpixels Bootstrap components. This server enables AI assistants like Claude to search, retrieve, and assemble Bootstrap UI components from the Webpixels library.
+MCP server for Webpixels Bootstrap 5 components. This server enables AI assistants like Claude to search, retrieve, and assemble Bootstrap UI components from the Webpixels library.
 
 ## Installation
 
@@ -148,6 +148,7 @@ MIT
 
 ## Links
 
-- [WebPixels](https://webpixels.io)
-- [WebPixels Library](https://github.com/webpixels/library)
+- [Webpixels](https://webpixels.io)
+- [Webpixels CSS](https://github.com/webpixels/css)
+- [Bootstrap](https://getbootstrap.com)
 - [MCP Protocol](https://modelcontextprotocol.io)
